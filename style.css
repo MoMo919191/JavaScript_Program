@@ -1,0 +1,68 @@
+/* 整體版面 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+/* 標題樣式 */
+.header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* 警示區樣式 */
+.alert {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* 功能區塊樣式 */
+.section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 表格樣式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 查詢按鈕樣式 */
+button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 警戒閃爍動畫 */
+.blink {
+    animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+    from { opacity: 1; }
+    to { opacity: 0.5; }
+}
